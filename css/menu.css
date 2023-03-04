@@ -1,0 +1,60 @@
+section.menu {
+	margin-top: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 57px;
+}
+
+section.menu p {
+	font-family: 'Ruda';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+	letter-spacing: 0.09em;
+	max-width: 1315px;
+}
+
+section.menu .menu-items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 52px;
+	max-width: 1400px;
+}
+
+section.menu .menu-items div {
+	display: flex;
+	gap: 20px;
+}
+
+section.menu .menu-items div img {
+	width: 273px;
+	height: 200px;
+	object-fit: contain;
+}
+
+section.menu .menu-items div div {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+section.menu .menu-items div div h2 {
+	font-family: 'Ruda';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	color: #f2c94c;
+}
+
+section.menu .menu-items div div p {
+	font-family: 'Ruda';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+	letter-spacing: 0.09em;
+	max-width: 346px;
+}

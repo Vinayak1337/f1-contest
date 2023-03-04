@@ -1,0 +1,43 @@
+nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 20px 27px;
+	justify-content: space-between;
+}
+
+nav h1 {
+	color: white;
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 0px;
+	letter-spacing: 0.06em;
+}
+
+nav .middle,
+nav .right {
+	display: flex;
+	align-items: center;
+}
+
+nav .middle {
+	gap: 10px;
+}
+
+nav .middle a {
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 0px;
+}
+
+nav .right a {
+	height: 42px;
+	width: 62px;
+}
+
+nav .right a img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}

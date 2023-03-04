@@ -1,0 +1,36 @@
+section.about-us {
+	padding-top: 99px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 94px;
+}
+
+section.about-us div {
+	display: flex;
+	gap: 79px;
+}
+
+section.about-us div p {
+	font-family: 'Ruda';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 0.09em;
+	border-top: #b62828 4px solid;
+	max-width: 677px;
+}
+
+section.about-us div img {
+	width: 631px;
+	height: 506px;
+	object-fit: contain;
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) 74.48%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+}

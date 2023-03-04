@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100vw;
+	max-width: 100vw;
+	overflow-x: hidden;
+	height: 100%;
+	background: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+p,
+a {
+	color: white;
+}
+
+.heading {
+	font-family: 'Quattrocento';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	padding: 0 40px;
+	border-bottom: #b62828 10px solid;
+}

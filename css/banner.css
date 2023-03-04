@@ -1,0 +1,49 @@
+section.banner {
+	background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(39, 39, 39, 0.05) 0.01%,
+			rgba(31, 31, 31, 0.0529908) 0.02%,
+			rgba(0, 0, 0, 0.065) 13.02%,
+			rgba(0, 0, 0, 0.5) 100%
+		),
+		url(../images/background/pizza.png) no-repeat center center;
+	filter: drop-shadow(3px 6px 18px rgba(0, 0, 0, 0.25));
+	background-size: cover;
+	height: 1017px;
+	padding: 0;
+	padding-left: 135px;
+	display: flex;
+	flex-direction: column;
+	gap: 78px;
+}
+
+section.banner h1 {
+	padding-top: 140px;
+	font-family: 'Quattrocento';
+	max-width: 902px;
+	font-weight: 700;
+	font-size: 101px;
+	line-height: 108px;
+	text-align: left;
+	letter-spacing: 0.09em;
+	color: #ffffff;
+}
+
+section.banner div {
+	width: 586px;
+	height: 13px;
+	background: #f24c4c;
+	box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+section.banner p {
+    max-width: 599px;
+    font-family: 'Ruda';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 0.09em;
+    color: #ffffff;
+}

@@ -1,0 +1,67 @@
+section.find-us {
+	margin-top: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 67px;
+}
+
+section.find-us div {
+	display: flex;
+	gap: 31px;
+}
+
+section.find-us div img {
+	width: 685px;
+	height: 438px;
+	object-fit: contain;
+}
+
+section.find-us div div {
+	display: flex;
+	flex-direction: column;
+	gap: 53px;
+}
+
+section.find-us div div p {
+	font-family: 'Ruda';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 0.09em;
+	color: #ffffff;
+	max-width: 640px;
+}
+
+section.find-us div div div {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+section.find-us div div div div {
+	display: flex;
+	gap: 29px;
+	flex-direction: row;
+    align-items: center;
+}
+
+section.find-us div div div div img {
+	width: 71px;
+	height: 67px;
+	object-fit: contain;
+}
+
+section.find-us div div div div p {
+	font-family: 'Ruda';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.09em;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
